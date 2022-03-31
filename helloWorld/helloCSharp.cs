@@ -1,12 +1,9 @@
-using System;
-
-namespace Hello
+namespace HelloWorld
 {
-    internal static class World
+    class HelloWorld
     {
-        static void Main()
-        {   
-            Console.WriteLine("Hello World");
+        static void Main(string[] args) {   
+            System.Console.WriteLine("Hello World");
         }
     }
 }
